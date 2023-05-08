@@ -1,0 +1,43 @@
+  .center {
+    padding-left: calc(50% - 720px);
+    padding-right:calc(50% - 720px) ;
+  }
+  .header {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .header_titile {
+    font-weight:500 ;
+  }
+  .main {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main__form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+  }
+  .main__selected {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main__selected select {
+    color: white;
+    background-color: #333333;
+    border-radius: 15px;
+    padding: 10px 20px 10px 20px;
+    border-style: none;
+  }
+
+  .main__date {
+    margin-bottom: 10px;
+    color: white;
+    background-color: #333333;
+    border-radius: 15px;
+    padding: 10px 20px 10px 20px;
+    border-style: none;
+  }

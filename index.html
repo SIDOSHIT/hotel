@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Бронь</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <header class="header">
+            <h1 class="header_titile">Форма бронирования переговорной</h1>
+        </header>
+        <main class="main center">
+            <form class="main__form">
+                <div class="main__selected">
+                    <p>Выбор корпуса</p>
+                    <select name="frame" id="frame">
+                        <option>A</option>
+                        <option>B</option>
+                    </select>
+                </div>
+                <div class="main__selected">
+                    <p>Выбор этажа</p>
+                    <select name="floor" id="floor">
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>27</option>
+                    </select>
+                </div>
+                <div class="main__selected">
+                    <p>Выбор комнаты</p>
+                    <select name="room" id="room">
+                        <option> 1 </option>
+                        <option> 2 </option>
+                        <option> 3 </option>
+                        <option> 4 </option>
+                        <option> 5 </option>
+                        <option> 6 </option>
+                        <option> 7 </option>
+                        <option> 8 </option>
+                        <option> 9 </option>
+                        <option> 10 </option>
+                    </select>
+                </div>
+                <div class="main__selected">
+                    <p>Временной интервал</p>
+                    <input id="date" type="date" value="2023-05-08"
+                        class="main__date">
+                    <select name="interval" id="interval">
+                        <option>1 час</option>
+                        <option>2 часа</option>
+                        <option>3 часа</option>
+                    </select>
+                </div>
+                <div class="main__comment">
+                    <p>Комментраий</p>
+                    <textarea class="main__comments" name="comment" cols="30" rows="2" id="comment"></textarea>
+                </div>
+                <div class="main__button">
+                    <button type="button" id="submit">Отправить</button>
+                    <button type="button" id="reset">Очистить</button>
+                </div>
+            </form>
+        </main>
+
+    </div>
+    <script type="module" src="./main.js"></script>
+</html>
